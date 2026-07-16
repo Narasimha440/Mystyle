@@ -6,20 +6,20 @@ import LoadingSkeleton from './LoadingSkeleton.jsx'
 
 const VARIANTS = {
   base: {
+    icon: Sparkles,
+    title: 'Base + LoRa',
+    badge: 'Fine-Tuned',
+    description: 'Response generated using the LoRA adapter.',
+    badgeClass: 'border-accent-purple/30 bg-accent-purple/10 text-accent-violet',
+    iconWrapClass: 'bg-brand-gradient text-white',
+  },
+  lora: {
     icon: Bot,
     title: 'Base Model',
     badge: 'Original',
     description: 'Response generated using the original Qwen model.',
     badgeClass: 'border-white/10 bg-white/[0.04] text-ink-300',
     iconWrapClass: 'bg-white/[0.06] text-ink-100',
-  },
-  lora: {
-    icon: Sparkles,
-    title: 'Base + LoRA',
-    badge: 'Fine-Tuned',
-    description: 'Response generated using the LoRA adapter.',
-    badgeClass: 'border-accent-purple/30 bg-accent-purple/10 text-accent-violet',
-    iconWrapClass: 'bg-brand-gradient text-white',
   },
 }
 
